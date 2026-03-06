@@ -1,6 +1,6 @@
 # TwoStageNormalizingFlows
 
-This repository contains the code used to produce the simulation examples and the case study presented in the paper _Estimating Complex Densities using Two-Stage Normalizing Flows_ by Roxana Darvishi, David C. Stenning, and Owen G. Ward (Simon Fraser University). The repository includes the code used in Section 4 for the joint density inference simulations, the hierarchical model experiments with inaccessible likelihoods, and the astrophysics case study described in Section 5 of the paper.
+This repository contains the code used to produce the simulation examples and the case study presented in the paper _Estimating Complex Densities using Two-Stage Normalizing Flows_ by Roxana Darvishi, Owen G. Ward, David C. Stenning, and Ted von Hippe. The repository includes the code used in Section 4 for the joint density inference simulations, the hierarchical model experiments with inaccessible likelihoods, and the astrophysics case study described in Section 5 of the paper.
 
 The implementation is done in Python using PyTorch. The normalizing flow models used in the experiments rely primarily on the implementation provided in the repository by Vincent Stimper:
 https://github.com/VincentStimper/normalizing-flows
@@ -14,7 +14,7 @@ LINK
 
 If you use this code in your research, please cite the associated paper:
 
-Darvishi, R., Stenning, D. C., & Ward, O. G.
+Darvishi, R., Ward, O. G., Stenning, D. C. & von Hippe T.
 Estimating Complex Densities using Two-Stage Normalizing Flows.
 
 BibTeX here.
